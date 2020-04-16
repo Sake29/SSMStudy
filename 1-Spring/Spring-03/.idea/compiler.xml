@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="5-spring_aop_annotation" />
+        <module name="3-spring_aop_xml" />
+        <module name="2-proxy" />
+        <module name="1-account" />
+        <module name="4-adviceType" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

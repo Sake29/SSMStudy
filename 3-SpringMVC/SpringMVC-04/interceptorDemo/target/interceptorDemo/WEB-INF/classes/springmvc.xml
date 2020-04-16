@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/mvc
+       http://www.springframework.org/schema/mvc/spring-mvc.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <!-- 开启注解扫描 -->
+    <context:component-scan base-package="com.sake"/>
+
+    <!-- 配置视图解析器 -->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!-- 前缀 -->
+        <property name="prefix" value="/WEB-INF/pages/"/>
+        <!-- 后缀 -->
+        <property name="suffix" value=".jsp"/>
+    </bean>
+
+    <!-- 配置拦截器1 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 要拦截的具体方法 -->
+            <mvc:mapping path="/user/*"/>
+            <!-- 不用拦截的方法
+            <mvc:exclude-mapping path=""/>
+             -->
+            <!-- 配置拦截器对象 -->
+            <bean class="com.sake.interceptor.MyInterceptor1"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+
+    <!-- 配置拦截器2 -->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!-- 要拦截的具体方法 -->
+            <mvc:mapping path="/**"/>
+            <!-- 不用拦截的方法
+            <mvc:exclude-mapping path=""/>
+             -->
+            <!-- 配置拦截器对象 -->
+            <bean class="com.sake.interceptor.MyInterceptor2"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
+    <!-- 前端控制器放行静态资源 -->
+    <!-- mapping后面一定要有**，location后面可以没有 -->
+    <mvc:resources mapping="/js/**" location="/js/"/>
+    <mvc:resources mapping="/css/**" location="/css/"/>
+    <mvc:resources mapping="/images/**" location="/images/"/>
+
+    <!-- 开启SpringMVC框架注解的支持 -->
+    <mvc:annotation-driven/>
+</beans>

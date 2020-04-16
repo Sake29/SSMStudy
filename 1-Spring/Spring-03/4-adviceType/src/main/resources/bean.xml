@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd">
+
+<!-- 配置spring的ioc，把service对象配置进来 -->
+    <bean id="accountService" class="com.sake.service.impl.AcountServiceImpl"/>
+
+    <!-- 配置spring的aop -->
+    <!-- 配置Logger类 -->
+    <bean id="logger" class="com.sake.utils.Logger"/>
+    <!-- 配置aop -->
+    <aop:config>
+        <!-- 配置点切入表达式 id属性用于指定表达式的唯一标志 -->
+        <!--
+            此标签写在aop:aspect内部时，只能当前切面可以使用，
+            此标签写在aop:aspect外部时，所有切面都可以用
+         -->
+        <aop:pointcut id="pt1" expression="execution(* *..*.*(..))"/>
+        <!-- 配置切面 -->
+        <aop:aspect id="logAdivice" ref="logger">
+            <!-- 配置环绕通知 详细注释看Logger类中 -->
+            <aop:around method="aroundPrintLog" pointcut-ref="pt1"/>
+        </aop:aspect>
+    </aop:config>
+</beans>

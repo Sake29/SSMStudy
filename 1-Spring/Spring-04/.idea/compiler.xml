@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="7-annox_tx_withoutxml" />
+        <module name="4-tx" />
+        <module name="1-jdbcTemplate" />
+        <module name="2-account_aop_tx" />
+        <module name="6-tx_anno" />
+        <module name="5-tx_xml" />
+        <module name="3-account_aop_tx_anno" />
+        <module name="8-account_tx" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

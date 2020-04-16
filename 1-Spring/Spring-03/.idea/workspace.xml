@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9b899c81-3fad-4445-8e06-cad34a3c1780" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\Maven-repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ZZFcYZmLB8SxdshepSoVsqz50I" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/5-spring_aop_annotation" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="test" />
+      <recent name="com.sake.service.impl" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WSY\Desktop\Spring-03\5-spring_aop_annotation" />
+      <recent name="C:\Users\WSY\Desktop\Spring-03\4-adviceType\src\main\resources" />
+      <recent name="C:\Users\WSY\Desktop\Spring-03\4-adviceType\src\main\java" />
+      <recent name="C:\Users\WSY\Desktop\Spring-03\2-proxy\src\main\java\com\sake\cglib" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.AOPTest (2)">
+    <configuration name="AOPTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.AOPTest" />
+      <module name="4-adviceType" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.AOPTest" />
+      <module name="5-spring_aop_annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.AOPTest" />
+      <module name="3-spring_aop_xml" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.sake.cglib.Client" />
+      <module name="2-proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.cglib.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountServiceTest.transfer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="1-account" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.AccountServiceTest" />
+      <option name="METHOD_NAME" value="transfer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.AOPTest (2)" />
+        <item itemvalue="Application.AOPTest (1)" />
+        <item itemvalue="Application.AOPTest" />
+        <item itemvalue="JUnit.AccountServiceTest.transfer" />
+        <item itemvalue="Application.Client (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9b899c81-3fad-4445-8e06-cad34a3c1780" name="Default Changelist" comment="" />
+      <created>1585038788493</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585038788493</updated>
+      <workItem from="1585038791757" duration="435000" />
+      <workItem from="1585039243971" duration="4651000" />
+      <workItem from="1585117136875" duration="10436000" />
+      <workItem from="1585294115341" duration="6424000" />
+      <workItem from="1585319908236" duration="220000" />
+      <workItem from="1585378550318" duration="5003000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>

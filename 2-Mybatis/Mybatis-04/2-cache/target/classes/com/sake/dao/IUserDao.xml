@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sake.dao.IUserDao">
+    <!-- 开启user支持二级缓存 -->
+    <cache/>
+
+
+    <update id="updataUser" parameterType="com.sake.domain.User">
+        update user set username=#{username},address=#{address},sex=#{sex} where id=#{id}
+    </update>
+
+    <!-- 查询所有 -->
+    <select id="findAll" resultType="com.sake.domain.User">
+        select * from user
+    </select>
+
+    <!-- 根据id查询 -->
+    <!-- 使用二级缓存 -->
+    <select id="findById" parameterType="int" resultType="com.sake.domain.User" useCache="true">
+        select * from user where id=#{uId}
+    </select>
+
+
+</mapper>

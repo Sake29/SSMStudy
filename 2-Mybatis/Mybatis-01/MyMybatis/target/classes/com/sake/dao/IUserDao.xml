@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<mapper namespace="com.sake.dao.IUserDao">
+    <!-- SQL语句 -->
+    <!-- 配置查询所有 -->
+    <select id="findAll" resultType="com.sake.domain.User"><!-- id必须写dao的方法名称 -->
+        select * from user
+    </select>
+    <select id="findByID" resultType="com.sake.domain.User">
+        select * from user where id=#{id}
+    </select>
+</mapper>

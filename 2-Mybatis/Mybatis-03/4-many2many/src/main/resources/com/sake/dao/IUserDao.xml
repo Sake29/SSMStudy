@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.sake.dao.IUserDao">
+    <!-- 定义user的resultMap -->
+    <!--
+        property:实体类的属性
+        column：数据库表的列名
+     -->
+    <resultMap id="userRoleMap" type="com.sake.domain.User">
+        <!-- 主键 -->
+        <id property="id" column="id"/>
+        <!-- 非主键字段 -->
+        <result property="username" column="username"/>
+        <result property="address" column="address"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
+        <!-- 一对多中返回集合 -->
+        <collection property="roles" ofType="com.sake.domain.Role">
+            <id property="roleId" column="id"/>
+            <result property="roleDesc" column="role_desc"/>
+            <result property="roleName" column="role_name"/>
+        </collection>
+    </resultMap>
+
+    <!-- 查询所有 -->
+    <select id="findAll" resultMap="userRoleMap">
+       select u.*,r.id as rid, r.role_name,r.role_desc from user u
+       left outer join user_role ur on u.id=ur.uid
+       left outer join role r on r.id=ur.rid;
+    </select>
+
+    <!-- 根据id查询 -->
+    <select id="findById" parameterType="int" resultType="com.sake.domain.User">
+        select * from user where id=#{uId}
+    </select>
+
+
+</mapper>

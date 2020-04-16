@@ -1,0 +1,11 @@
+405：
+在Tomcat目录下的conf文件夹下的web.xml中加入
+    <init-param>
+        <param-name>readonly</param-name>
+        <param-value>false</param-value>
+     </init-param>
+配置完后保存，退出，重启tomcat服务器
+
+409：
+在目标服务器上缺少路径，比如上传到http://localhost:9090/uploads/
+但是localhost:9090上没有uploads文件夹，需要在目标服务器上建立该目录

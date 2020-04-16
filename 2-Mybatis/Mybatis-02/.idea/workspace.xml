@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5520835a-4be6-4b63-9ae3-647870dcf029" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\Maven\Maven-repository" />
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Maven\apache-maven-3.5.2\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ZCN83AbnsDkFoaVKgMwZumbMja" />
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MybatisDAO/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\WSY\Desktop\Mybatis-02\MybatisDAO\src\main\resources" />
+      <recent name="C:\Users\WSY\Desktop\Mybatis-02\MybatisDAO\src" />
+      <recent name="C:\Users\WSY\Desktop\Mybatis-02\CRUDDemo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisTest.testFindAll (1)">
+    <configuration name="MybatisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.MybatisTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindAll (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CRUDDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testsaveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testsaveUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisTest.testupdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MybatisDAO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sake.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.sake.test" />
+      <option name="MAIN_CLASS_NAME" value="com.sake.test.MybatisTest" />
+      <option name="METHOD_NAME" value="testupdateUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisTest.testFindAll (1)" />
+        <item itemvalue="JUnit.MybatisTest.testupdateUser" />
+        <item itemvalue="JUnit.MybatisTest.testsaveUser" />
+        <item itemvalue="JUnit.MybatisTest.testFindAll" />
+        <item itemvalue="JUnit.MybatisTest.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5520835a-4be6-4b63-9ae3-647870dcf029" name="Default Changelist" comment="" />
+      <created>1584338952186</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584338952186</updated>
+      <workItem from="1584338954011" duration="16612000" />
+      <workItem from="1584424318613" duration="6893000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+</project>
